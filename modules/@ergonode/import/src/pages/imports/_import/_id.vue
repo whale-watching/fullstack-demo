@@ -1,0 +1,119 @@
+/*
+ * Copyright © Chen Chris. All rights reserved.
+ * See LICENSE for license details.
+ */
+<template>
+    <Page>
+        <TitleBar
+            :title="name"
+            :is-read-only="isReadOnly">
+            <template #prependHeader>
+                <NavigateBackFab :previous-route="previousRoute" />
+            </template>
+            <template #mainAction>
+                <template
+                    v-for="(actionItem, index) in extendedMainAction">
+                    <Component
+                        :is="actionItem.component"
+                        :key="index"
+                        v-bind="bindingProps(actionItem)" />
+                </template>
+                <RemoveImportButton />
+                <CreateImportButton />
+            </template>
+        </TitleBar>
+        <HorizontalRoutingTabBar
+            v-if="asyncTabs"
+            :items="asyncTabs"
+            :change-values="changeValues"
+            :errors="errors" />
+    </Page>
+</template>
+
+<script>
+import {
+    ALERT_TYPE,
+} from '@Core/defaults/alerts';
+import beforeRouteEnterMixin from '@Core/mixins/route/beforeRouteEnterMixin';
+import beforeRouteLeaveMixin from '@Core/mixins/route/beforeRouteLeaveMixin';
+import beforeRouteUpdateMixin from '@Core/mixins/route/beforeRouteUpdateMixin';
+import asyncTabsMixin from '@Core/mixins/tab/asyncTabsMixin';
+import CreateImportButton from '@Import/components/Buttons/CreateImportButton';
+import RemoveImportButton from '@Import/components/Buttons/RemoveImportButton';
+import PRIVILEGES from '@Import/config/privileges';
+import {
+    mapState,
+} from 'vuex';
+
+export default {
+    name: 'EditImportProfile',
+    components: {
+        CreateImportButton,
+        RemoveImportButton,
+    },
+    mixins: [
+        asyncTabsMixin,
+        beforeRouteEnterMixin,
+        beforeRouteLeaveMixin,
+        beforeRouteUpdateMixin,
+    ],
+    validate({
+        params,
+    }) {
+        return /\w{8}-\w{4}-\w{4}-\w{4}-\w{12}/.test(params.id);
+    },
+    async fetch({
+        app,
+        store,
+        params,
+    }) {
+        await store.dispatch('dictionaries/getInitialDictionaries', {
+            keys: [
+                'sources',
+            ],
+        });
+        await store.dispatch('import/getImportProfile', {
+            id: params.id,
+            onError: () => {
+                app.$addAlert({
+                    type: ALERT_TYPE.ERROR,
+                    message: app.i18n.t('@Import.import.pages.id.getRequest'),
+                });
+            },
+        });
+    },
+    computed: {
+        ...mapState('import', [
+            'configuration',
+        ]),
+        name() {
+            const {
+                name,
+            } = JSON.parse(this.configuration);
+
+            return name;
+        },
+        extendedMainAction() {
+            return this.$getExtendSlot('@Import/pages/imports/_import/mainAction');
+        },
+        isReadOnly() {
+            return this.$isReadOnly(PRIVILEGES.IMPORT.namespace);
+        },
+    },
+    methods: {
+        bindingProps({
+            props = {},
+        }) {
+            return {
+                privileges: PRIVILEGES.IMPORT,
+                ...props,
+            };
+        },
+    },
+    head() {
+        return {
+            title: `${this.name} - Import profiles - Ergonode`,
+        };
+    },
+};
+</script>

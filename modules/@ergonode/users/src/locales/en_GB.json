@@ -1,0 +1,100 @@
+{
+  "@Users": {
+    "_": {
+      "submit": "Save changes",
+      "create": "Create",
+      "proceed": "Create & Edit",
+      "cancel": "Cancel",
+      "deleteConfirm": "Yes, remove",
+      "notAssigned": "Not assigned",
+      "routes": {
+        "title": "Users",
+        "group": "System",
+        "editOption": "Options",
+        "editAvatar": "Avatar",
+        "editLanguage": "Language restrictions",
+        "profile": "Activity log"
+      }
+    },
+    "user": {
+      "_": {
+        "title": "Users",
+        "headTitle": "Users - Ergonode",
+        "noUsers": "No users",
+        "createFirst": "There are no users in the system, so you can add the first one."
+      },
+      "components": {
+        "CreateUserButton": {
+          "addButton": "New user"
+        },
+        "RemoveUserButton": {
+          "removeButton": "Remove user",
+          "deleteTitle": "Are you sure you want to delete this user?",
+          "deleteSuccess": "User removed",
+          "deleteRequest": "User hasn’t been deleted"
+        },
+        "UpdateLanguageRestrictionsButton": {
+          "updateLanguageValidation": "Language restrictions are requiring at least one read privilege for any language",
+          "updateLanguageSuccess": "Language privileges have been updated"
+        },
+        "UserForm": {
+          "title": "Options",
+          "emailLabel": "Email",
+          "nameLabel": "First name",
+          "lastNameLabel": "Last name",
+          "passwordLabel": "Password",
+          "passwordRepeatLabel": "Password repeat",
+          "activeLabel": "The active status",
+          "languageLabel": "Language"
+        },
+        "UsersGrid": {
+          "getRequest": "Users haven’t been fetched properly",
+          "deleteSuccess": "User removed"
+        },
+        "CreateUserModalForm": {
+          "createTitle": "Create user",
+          "createSuccess": "User created"
+        },
+        "UserGeneralTab": {
+          "updateSuccess": "User has been updated"
+        }
+      },
+      "pages": {
+        "id": {
+          "getRequest": "User hasn't been fetched properly"
+        }
+      },
+      "store": {
+        "action": {
+          "createCancel": "Creating user has been canceled",
+          "updateCancel": "Updating user has been canceled",
+          "deleteCancel": "Removing user has been canceled"
+        }
+      }
+    },
+    "profile": {
+      "_": {
+        "title": "Profile",
+        "headTitle": "Profile - Ergonode"
+      },
+      "components": {
+        "UserAvatarForm": {
+          "title": "User avatar",
+          "uploadLabel": "Profile picture",
+          "uploadAlt": "User avatar"
+        },
+        "UserActivityLogsGrid": {
+          "getRequest": "User activity logs haven’t been fetched properly"
+        },
+        "UserAvatarTab": {
+          "updateAvatarSuccess": "User avatar has been updated"
+        }
+      },
+      "store": {
+        "action": {
+          "updateAvatarCancel": "Updating user avatar has been canceled"
+        }
+      }
+    }
+  }
+}

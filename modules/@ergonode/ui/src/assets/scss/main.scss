@@ -1,0 +1,20 @@
+/*
+ * Copyright © Chen Chris. All rights reserved.
+ * See LICENSE for license details.
+ */
+
+/*
+ * Global Project SCSS Meta data
+ * Available only SCSS variables and mixins, but not css styles
+ */
+
+// variables
+@import "_variables/typography";
+@import "_variables/colors";
+@import "_variables/borders";
+@import "_variables/elevators";
+@import "_variables/indexes";
+@import "_variables/sizes";
+
+//mixins
+@import "_mixins/fonts";

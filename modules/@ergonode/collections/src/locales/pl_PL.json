@@ -1,0 +1,127 @@
+{
+  "@Collections": {
+    "_": {
+      "submit": "Zapisz zmiany",
+      "create": "Stwórz",
+      "proceed": "Stwórz & Edytuj",
+      "cancel": "Anuluj",
+      "deleteConfirm": "Tak, usuń",
+      "routes": {
+        "title": "Kolekcje",
+        "group": "Produkty",
+        "editGeneral": "Opcje",
+        "editTranslation": "Tłumaczenia",
+        "editProducts": "Produkty",
+        "editCollections": "Kolekcje"
+      },
+      "addProducts": {
+        "fromListTitle": "Dodaj produkty z listy",
+        "fromSkuOption": "Dodaj po SKU",
+        "fromSegmentOption": "Dodaj z reguł segmentacji"
+      }
+    },
+    "collection": {
+      "_": {
+        "title": "Kolekcje",
+        "headTitle": "Kolekcje - Ergonode",
+        "noCollection": "Brak kolekcji",
+        "noCollectionType": "Brak typów kolekcji",
+        "createFirst": "W systemie nie ma kolekcji, dodaj pierwszą.",
+        "noCollectionTypeDescription": "W systemie nie ma typów kolekcji, skontaktuj się z supportem."
+      },
+      "pages": {
+        "id": {
+          "getRequest": "Kolekcja nie została pobrany poprawnie"
+        }
+      },
+      "store": {
+        "action": {
+          "createCancel": "Tworzenie kolekcji zostało przerwane",
+          "updateCancel": "Aktualizowanie kolekcji zostało przerwane",
+          "deleteCancel": "Usuwanie kolekcji zostało przerwane"
+        }
+      },
+      "components": {
+        "UpdateCollectionProductsVisibilityButton": {
+          "successMessage": "Widoczność produktów w kolekcji została zaktualizowana"
+        },
+        "CollectionTypesAutocomplete": {
+          "label": "Typ"
+        },
+        "CollectionGeneralTab": {
+          "successMessage": "Kolekcja została zaktualizowana"
+        },
+        "CreateCollectionModalForm": {
+          "title": "Stwórz kolekcję produktową",
+          "successMessage": "Kolekcja została stworzona"
+        },
+        "AddProductsFromSegmentModalForm": {
+          "title": "Dodaj produkty z reguł segmentujących",
+          "formSubtitle": "Dodaj do kolekcji",
+          "successMessage": "Produkty zostały dodane do kolekcji"
+        },
+        "AddProductsBySKUModalForm": {
+          "title": "Dodaj produkty po SKU",
+          "formSubtitle": "Dodaj do kolekcji",
+          "successMessage": "Produkty zostały dodane do kolekcji"
+        },
+        "UpdateProductsAttachmentButton": {
+          "successMessage": "Produkty zostały dodane do kolekcji"
+        },
+        "CollectionsGrid": {
+          "successMessage": "Kolekcja została usunięta",
+          "errorMessage": "Kolekcje nie zostały pobrane poprawnie"
+        },
+        "CollectionProductsGrid": {
+          "successMessage": "Kolekcja produktów nie została pobrana prawidłowo"
+        },
+        "ProductsToAttachForCollectionGrid": {
+          "noProducts": "Brak produktów",
+          "createFirst": "Brak produktów z wariantami albo produktów prostych w systemie, stwórz pierwszy.",
+          "attachedLabel": "Przypięte",
+          "notAttachedLabel": "Nie przypięte",
+          "getRequest": "Produkty nie zostały pobrane"
+        },
+        "CollectionTranslationForm": {
+          "collectionNameLabel": "Nazwa kolekcji",
+          "descriptionLabel": "Opis"
+        },
+        "CollectionForm": {
+          "title": "Opcje",
+          "nameLabel": "Nazwa systemu",
+          "nameHint": "Nazwa systemu musi być unikatowa"
+        },
+        "AddProductsBySKUForm": {
+          "skuLabel": "Po SKU",
+          "skuHint": "Oddziel wiele SKU używając nowej linii albo przecinka np. “SKU1, SKU2, SKU3”"
+        },
+        "UpdateCollectionTranslationButton": {
+          "successMessage": "Tłumaczenia kolekcji zostały zaktualizowane"
+        },
+        "RemoveCollectionButton": {
+          "title": "Usuń kolekcję",
+          "confirmTitle": "Czy jesteś pewien, że chcesz usunąć tą kolekcję?",
+          "successMessage": "Kolekcja została usunięta",
+          "errorMessage": "Kolekcja nie została usunięta"
+        },
+        "CreateCollectionButton": {
+          "title": "Nowa kolekcja"
+        },
+        "AddProductsToCollectionButton": {
+          "title": "Dodaj produkty"
+        }
+      }
+    },
+    "productExtend": {
+      "components": {
+        "ProductWithoutCollectionTabBarNoDataPlaceholder": {
+          "title": "Nie ma tu nic do oglądania",
+          "subtitle": "Ten produkt nie jest dodany do żadnej kolekcji."
+        },
+        "NavigateToCollectionsButton": {
+          "title": "Idź do kolekcji"
+        }
+      }
+    }
+  }
+}

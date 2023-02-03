@@ -1,0 +1,83 @@
+{
+  "@Core": {
+    "_": {
+      "buttons": {
+        "create": "CREATE",
+        "proceed": "CREATE & EDIT",
+        "submit": "SAVE CHANGES",
+        "restore": "RESTORE",
+        "cancel": "CANCEL",
+        "clear": "Clear"
+      },
+      "errors": {
+        "network": "Network Error",
+        "internal": "Internal Server Error",
+        "wrongCredentials": "Couldn't authenticate user. Please verify credentials",
+        "nonAuthorized": "Authentication needed",
+        "accessDenied": "Access denied",
+        "mediaNotFound": "Media not found",
+        "pageNotFound": "Page not found",
+        "unsupportedMessage": "Unsupported message, please contact support with reproduction steps"
+      },
+      "routes": {
+        "title": "Settings",
+        "group": "System",
+        "editLanguages": "Languages",
+        "editInheritance": "Languages inheritance",
+        "editUnits": "Units",
+        "editUnitsOptions": "Options",
+        "userMenu": "My account",
+        "userMenuProfile": "My profile"
+      }
+    },
+    "core": {
+      "_": {
+        "settingsTitle": "Settings",
+        "systemLanguagesTitle": "System languages"
+      },
+      "store": {
+        "action": {
+          "updateLanguageTreeCancel": "Updating language tree has been canceled"
+        }
+      },
+      "mixins": {
+        "confirmLeaveModalMixin": {
+          "confirmTitle": "Are you sure you want to leave page without saving the data?",
+          "confirmApplyTitle": "YES, I'M SURE"
+        }
+      },
+      "components": {
+        "LanguageInheritanceTreeDesigner": {
+          "itemSubtitle": "Inherited languages: {info}"
+        },
+        "UnitForm": {
+          "title": "Options",
+          "nameLabel": "Unit name",
+          "nameHint": "Unit name must be unique",
+          "symbolLabel": "Unit symbol",
+          "symbolHint": "Unit symbol must be unique"
+        },
+        "CreateUnitModalForm": {
+          "title": "New unit",
+          "successMessage": "Unit created"
+        },
+        "CreateUnitButton": {
+          "title": "New unit"
+        },
+        "UpdateLanguagesInheritanceButton": {
+          "warningMessage": "Language inheritance tree cannot be saved without any language",
+          "successMessage": "Languages tree has been updated"
+        },
+        "RemoveLanguageDropZone": {
+          "title": "Remove language"
+        },
+        "ToolBarUserSelectContent": {
+          "logout": "LOG OUT"
+        },
+        "TranslationsTab": {
+          "translationsSelectLabel": "Translations"
+        }
+      }
+    }
+  }
+}

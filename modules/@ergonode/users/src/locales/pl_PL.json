@@ -1,0 +1,100 @@
+{
+  "@Users": {
+    "_": {
+      "submit": "Zapisz zmiany",
+      "create": "Stwórz",
+      "proceed": "Stwórz & Edytuj",
+      "cancel": "Anuluj",
+      "deleteConfirm": "Tak, usuń",
+      "notAssigned": "Nieprzypisane",
+      "routes": {
+        "title": "Użytkownicy",
+        "group": "System",
+        "editOption": "Opcje",
+        "editAvatar": "Avatar",
+        "editLanguage": "Ograniczenia językowe",
+        "profile": "Log aktywności"
+      }
+    },
+    "user": {
+      "_": {
+        "title": "Użytkownicy",
+        "headTitle": "Użytkownicy - Ergonode",
+        "noUsers": "Brak użytkowników",
+        "createFirst": "Brak użytkowników w systemie, stwórz pierwszego."
+      },
+      "components": {
+        "CreateUserButton": {
+          "addButton": "Nowy użytkownik"
+        },
+        "RemoveUserButton": {
+          "removeButton": "Usuń użytkownika",
+          "deleteTitle": "Czy jesteś pewien, że chcesz usunąć tego użytkownika?",
+          "deleteSuccess": "Użytkownik usunięty",
+          "deleteRequest": "Użytkownik nie został usunięty"
+        },
+        "UpdateLanguageRestrictionsButton": {
+          "updateLanguageValidation": "Uprawnienia językowe wymagają co najmniej jednego uprawnienia do odczytu",
+          "updateLanguageSuccess": "Uprawnienia językowe zostały zaktualizowane"
+        },
+        "UserForm": {
+          "title": "Opcje",
+          "emailLabel": "Email",
+          "nameLabel": "Imię",
+          "lastNameLabel": "Nazwisko",
+          "passwordLabel": "Hasło",
+          "passwordRepeatLabel": "Powtórz hasło",
+          "activeLabel": "Aktywny status",
+          "languageLabel": "Język"
+        },
+        "UsersGrid": {
+          "getRequest": "Użytkownicy nie zostali pobrani poprawnie",
+          "deleteSuccess": "Użytkownik usunięty"
+        },
+        "CreateUserModalForm": {
+          "createTitle": "Stwórz użytkownika",
+          "createSuccess": "Użytkownik stworzony"
+        },
+        "UserGeneralTab": {
+          "updateSuccess": "Użytkownik został zaktualizowany"
+        }
+      },
+      "pages": {
+        "id": {
+          "getRequest": "Użytkownik nie został pobrany poprawnie"
+        }
+      },
+      "store": {
+        "action": {
+          "createCancel": "Tworzenie użytkownika zostało przerwane",
+          "updateCancel": "Aktualizowanie użytkownika zostało przerwane",
+          "deleteCancel": "Usuwanie użytkownika zostało przerwane"
+        }
+      }
+    },
+    "profile": {
+      "_": {
+        "title": "Profil",
+        "headTitle": "Profil - Ergonode"
+      },
+      "components": {
+        "UserAvatarForm": {
+          "title": "Awatar użytkownika",
+          "uploadLabel": "Zdjęcie profilowe",
+          "uploadAlt": "Awatar użytkownika"
+        },
+        "UserActivityLogsGrid": {
+          "getRequest": "Logi aktywności użytkownika nie zostały pobrane poprawnie"
+        },
+        "UserAvatarTab": {
+          "updateAvatarSuccess": "Awatar użytkownika został zaktualizowany"
+        }
+      },
+      "store": {
+        "action": {
+          "updateAvatarCancel": "Aktualizowanie awataru użytkownika zostało przerwane"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "@BatchActions": {
+    "batchAction": {
+      "components": {
+        "BatchActionsButton": {
+          "title": "Actions"
+        }
+      }
+    },
+    "batchActionExtend": {
+      "message": "Processing {info}"
+    }
+  }
+}

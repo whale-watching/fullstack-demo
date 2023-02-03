@@ -1,0 +1,133 @@
+{
+  "@Media": {
+    "_": {
+      "submit": "Zapisz zmiany",
+      "create": "Stwórz",
+      "proceed": "Stwórz & Edytuj",
+      "cancel": "Anuluj",
+      "deleteConfirm": "Tak, usuń",
+      "routes": {
+        "title": "Media",
+        "group": "Zasoby",
+        "editOption": "Opcje",
+        "editTranslations": "Tłumaczenia",
+        "editInformation": "Informacje",
+        "editRelations": "Relacje"
+      }
+    },
+    "media": {
+      "_": {
+        "title": "Zasoby",
+        "headTitle": "Zasoby - Ergonode",
+        "noMedia": "Brak zasobów",
+        "createFirst": "W systemie nie ma zasobów, dodaj pierwszy."
+      },
+      "pages": {
+        "id": {
+          "getRequest": "Zasób nie został pobrany poprawnie"
+        }
+      },
+      "store": {
+        "action": {
+          "createCancel": "Tworzenie zasobu zostało przerwane",
+          "updateCancel": "Aktualizowanie zasobu zostało przerwane",
+          "deleteCancel": "Usuwanie zasobu zostało przerwane"
+        },
+        "metadata": {
+          "alpha": "Kanał alfa",
+          "createdAt": "Stworzone dnia",
+          "height": "Wysokość",
+          "resolution": "Rozdzielczość",
+          "size": "Waga",
+          "type": "Typ",
+          "width": "Szerokość"
+        }
+      },
+      "components": {
+        "ResourceInformationForm": {
+          "title": "Informacja"
+        },
+        "ResourceRelationsForm": {
+          "title": "Relacje w produktach",
+          "placeholderTitle": "Brak relacji w produktach",
+          "placeholderSubtitle": "Tutaj możesz zobaczyć informacje dotyczące relacji w produktach."
+        },
+        "UploadFileTab": {
+          "informationLabel": "Przeciągnij i upuść pliki",
+          "logicOperator": "albo",
+          "browseTitle": "Przeglądaj pliki",
+          "successMessage": "Plik dodany",
+          "errorMessage": "Wewnętrzny błąd serwera"
+        },
+        "ResourceGeneralTab": {
+          "successMessage": "Zasób został zaktualizowany"
+        },
+        "ModalMediaTabBar": {
+          "title": "Dodaj zasoby"
+        },
+        "UploadImageFile": {
+          "singularTitle": "Dodaj zdjęcie",
+          "pluralTitle": "Dodaj zdjęcia",
+          "mediaTabTitle": "Zasoby",
+          "uploadFilesTabTitle": "Dodaj pliki",
+          "changeImageOptionTitle": "Zmień to zdjęcie",
+          "downloadImageOptionTitle": "Pobierz to zdjęcie",
+          "removeImageOptionTitle": "Usuń to zdjęcie",
+          "addImageToGalleryOptionTitle": "Dodaj zdjęcie do galerii",
+          "detachFromGalleryOptionTitle": "Odepnij to zdjęcie z galerii"
+        },
+        "FilePreview": {
+          "downloadFileOptionTitle": "Pobierz ten plik"
+        },
+        "UploadFiles": {
+          "title": "Dodaj pliki",
+          "mediaTabTitle": "Zasoby",
+          "uploadFilesTabTitle": "Dodaj pliki"
+        },
+        "MediaGrid": {
+          "successMessage": "Zasób został usunięty",
+          "errorMessage": "Zasób nie został pobrany poprawnie"
+        },
+        "AddMediaGrid": {
+          "attachLabel": "Dodane",
+          "successUpdateMessage": "Zasoby zostały zaktualizowane",
+          "infoMessage": "Żadne zmiany nie zostały zrobione",
+          "successRemoveMessage": "Zasób został usunięty",
+          "errorGetMessage": "Zasoby nie zostały pobrane poprawnie"
+        },
+        "ResourceTranslationForm": {
+          "altLabel": "Alternatywny tekst"
+        },
+        "ResourceForm": {
+          "title": "Opcje",
+          "filenameLabel": "Nazwa pliku",
+          "previewLabel": "Podgląd"
+        },
+        "UploadResourcesButton": {
+          "title": "Dodaj pliki",
+          "modalTitle": "Dodaj zasób",
+          "modalTabTitle": "Dodaj pliki"
+        },
+        "UpdateResourceTranslationButton": {
+          "successMessage": "Tłumaczenia zasobu zostały zaktualizowane"
+        },
+        "RemoveResourceButton": {
+          "title": "Usuń zasób",
+          "confirmTitle": "Czy jesteś pewien, że chcesz usunąć ten zasób?",
+          "successMessage": "Zasób usunięty",
+          "errorMessage": "Zasób nie został usunięty"
+        },
+        "LinkRelationButton": {
+          "errorMessage": "Nieznany typ relacji"
+        }
+      }
+    },
+    "productTemplateExtend": {
+      "components": {
+        "ProductTemplateFormUploadImage": {
+          "label": "Zdjęcie szablonu"
+        }
+      }
+    }
+  }
+}

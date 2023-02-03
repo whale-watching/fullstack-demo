@@ -1,0 +1,20 @@
+{
+  "@ActivityLogs": {
+    "_": {
+      "routes": {
+        "title": "Logi aktywności",
+        "group": "System"
+      }
+    },
+    "activityLog": {
+      "_": {
+        "title": "Log aktywności użytkownika"
+      },
+      "components": {
+        "UsersActivityLogsGrid": {
+          "getRequest": "Logi aktywności użytkownika nie zostały pobrane prawidłowo"
+        }
+      }
+    }
+  }
+}

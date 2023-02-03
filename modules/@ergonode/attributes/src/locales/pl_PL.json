@@ -1,0 +1,134 @@
+{
+  "@Attributes": {
+    "_": {
+      "submit": "Zapisz zmiany",
+      "create": "Stwórz",
+      "proceed": "Stwórz & Edytuj",
+      "cancel": "Anuluj",
+      "deleteConfirm": "Tak, usuń",
+      "notAssigned": "Nieprzypisane",
+      "routes": {
+        "title": "Atrybuty",
+        "group": "Struktura produktu",
+        "editOption": "Opcje",
+        "editTranslation": "Tłumaczenia"
+      }
+    },
+    "attribute": {
+      "_": {
+        "title": "Atrybuty",
+        "headTitle": "Atrybuty - Ergonode",
+        "noAttributes": "Brak atrybutów",
+        "createFirst": "W systemie nie ma atrybutów, stwórz pierwszy.",
+        "types": {
+          "TEXT": "Tekst",
+          "TEXT_AREA": "Pole tekstowe",
+          "NUMERIC": "Numeryczny",
+          "SELECT": "Pole wyboru",
+          "MULTI_SELECT": "Lista wyboru",
+          "PRICE": "Cena",
+          "UNIT": "Jednostka",
+          "DATE": "Data"
+        }
+      },
+      "components": {
+        "AttributeForm": {
+          "title": "Opcje",
+          "sectionTitle": "Konfiguracja",
+          "typeLabel": "Typ",
+          "nameLabel": "Nazwa systemowa",
+          "nameHint": "Nazwa systemowa musi być unikalna",
+          "scopeLabel": "Zakres",
+          "scopeHint": "Global oznacza że ta sama wartość atrybutu dla każdego języja, będzie odziedziczona po języku głównym. Wartości opcji mogą być tłumaczone, ale nie mogą być zmienione w szablonie produktu. "
+        },
+        "AttributeTranslationForm": {
+          "nameLabel": "Nazwa atrybutu",
+          "hintLabel": "Podpowiedź dla pisarzy"
+        },
+        "CreateAttributeButton": {
+          "addButton": "Nowy atrybut"
+        },
+        "RemoveAttributeButton": {
+          "removeButton": "Usuń atrybut",
+          "deleteTitle": "Czy jesteś pewien, że chcesz usunąć ten atrybut?",
+          "deleteSuccess": "Atrybut usunity",
+          "deleteRequest": "Atrybut nie został usunięty"
+        },
+        "UpdateAttributeTranslationButton": {
+          "updateSuccess": "Tłumaczenia atrybutów zostały zaktualizowane"
+        },
+        "AttributesGrid": {
+          "getRequest": "Atrybuty nie zostały pobrane prawidłowo",
+          "deleteSuccess": "Atrybut usunięty"
+        },
+        "CreateAttributeModalForm": {
+          "create": "Stwórz atrybut",
+          "createSuccess": "Atrybut stworzony"
+        },
+        "SystemAttributesSideBar": {
+          "title": "Atrybuty systemowe"
+        },
+        "AttributeGeneralTab": {
+          "updateSuccess": "Atrybut został uaktualniony"
+        }
+      },
+      "pages": {
+        "id": {
+          "getRequest": "Atrybut nie został pobrany prawidłowo"
+        }
+      },
+      "store": {
+        "action": {
+          "createCancel": "Tworzenie atrybutu zostało przerwane",
+          "updateCancel": "Aktualizacja atrybutu została przerwana",
+          "deleteCancel": "Usuwanie atrybutu zostało przerwane",
+          "validateCancel": "Walidowanie wartości atrybutu zostało przerwane"
+        }
+      }
+    },
+    "attributeExtend": {
+      "components": {
+        "AttributeOptionKeyValues": {
+          "addOption": "Dodaj opcję",
+          "optionLabel": "Kod opcji"
+        },
+        "AttributeOptionValues": {
+          "optionTitle": "Wartość opcji"
+        },
+        "AttributeFormParamsToggle": {
+          "richTextLabel": "Wzbogacona zawartość tekstowa włączona"
+        },
+        "AttributeTranslationFormPlaceholder": {
+          "placeholderLabel": "Placeholder"
+        },
+        "AttributesVerticalTab": {
+          "title": "Atrybuty produktu"
+        },
+        "SystemAttributesVerticalTab": {
+          "title": "Atrybuty systemowe"
+        }
+      },
+      "methods": {
+        "optionUniq": "Kod opcji musi być unikalny",
+        "optionEmpty": "Opcja nie może być pusta",
+        "getOptionRequest": "Opcje atrybutu nie zostały pobrane prawidłowo",
+        "configFormat": "Format",
+        "configUnit": "Jednostka",
+        "configCurrency": "Waluta"
+      }
+    },
+    "productTemplate": {
+      "components": {
+        "ProductTemplateFormPresentation": {
+          "title": "Prezentacja produktu",
+          "defaultLabel": "Domyślny atrybut etykiety",
+          "defaultImage": "Domyślny atrybut obrazu",
+          "noLabelTitle": "Brak atrybutu tekstowego",
+          "noLabelSubtitle": "W systemie nie ma żadnych atrybutów tekstowych, więc można utworzyć pierwszy.",
+          "noImageTitle": "Brak atrybutu obrazu ",
+          "noImageSubtitle": "W systemie nie ma żadnych atrybutów obrazu, więc można utworzyć pierwszy."
+        }
+      }
+    }
+  }
+}

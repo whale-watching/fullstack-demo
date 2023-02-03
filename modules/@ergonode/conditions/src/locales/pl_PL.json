@@ -1,0 +1,20 @@
+{
+  "@Conditions": {
+    "_": {},
+    "condition": {
+      "components": {
+        "ConditionsSideBar": {
+          "title": "Warunki"
+        },
+        "ConditionSetTreeDesignerNoTypeItemParameter": {
+          "placeholderTitle": "Brak wsparcia dla {info} typu parametru warunku"
+        }
+      }
+    },
+    "transitionExtend": {
+      "methods": {
+        "verticalTabTitle": "Warunki"
+      }
+    }
+  }
+}

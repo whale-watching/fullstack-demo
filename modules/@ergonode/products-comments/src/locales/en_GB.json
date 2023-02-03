@@ -1,0 +1,17 @@
+{
+  "@ProductsComments": {
+    "_": {
+      "routes": {
+        "editComments": "Comments"
+      }
+    },
+    "product": {
+      "components": {
+        "ProductCommentsTab": {
+          "getRequest": "Comments haven't been fetched properly",
+          "noData": "Here you can share information about the product with other people."
+        }
+      }
+    }
+  }
+}

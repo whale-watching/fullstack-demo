@@ -1,0 +1,83 @@
+{
+  "@Core": {
+    "_": {
+      "buttons": {
+        "create": "Stwórz",
+        "proceed": "Stwórz & Edytuj",
+        "submit": "Zapisz zmiany",
+        "restore": "Przywróć",
+        "cancel": "Anuluj",
+        "clear": "Wyczyść"
+      },
+      "errors": {
+        "network": "Błąd sieci",
+        "internal": "Wewnętrzny błąd serwera",
+        "wrongCredentials": "Nie można uwierzytelnić użytkownika. Proszę zweryfikować dane uwierzytelniające",
+        "nonAuthorized": "Wymagane uwierzytelnienie",
+        "accessDenied": "Odmowa dostępu",
+        "mediaNotFound": "Nie znaleziono mediów",
+        "pageNotFound": "Nie znaleziono strony",
+        "unsupportedMessage": "Nieobsługiwany komunikat, prosimy o kontakt z pomocą techniczną w celu odtworzenia czynności."
+      },
+      "routes": {
+        "title": "Ustawienia",
+        "group": "System",
+        "editLanguages": "Języki",
+        "editInheritance": "Dziedziczenie języków",
+        "editUnits": "Jednostki",
+        "editUnitsOptions": "Opcje",
+        "userMenu": "Moje konto",
+        "userMenuProfile": "Mój profil"
+      }
+    },
+    "core": {
+      "_": {
+        "settingsTitle": "Ustawienia",
+        "systemLanguagesTitle": "Języki systemowe"
+      },
+      "store": {
+        "action": {
+          "updateLanguageTreeCancel": "Aktualizowanie drzewa językowego zostało przerwane"
+        }
+      },
+      "mixins": {
+        "confirmLeaveModalMixin": {
+          "confirmTitle": "Czy jesteś pewien/pewna, że chcesz opuścić stronę bez zapisu danych?",
+          "confirmApplyTitle": "TAK, JESTEM PEWIEN/PEWNA"
+        }
+      },
+      "components": {
+        "LanguageInheritanceTreeDesigner": {
+          "itemSubtitle": "Dziedziczone języki: {info}"
+        },
+        "UnitForm": {
+          "title": "Opcje",
+          "nameLabel": "Nazwa jednostki",
+          "nameHint": "Nazwa jednostki musi być unikatowa",
+          "symbolLabel": "Symbol jednostki",
+          "symbolHint": "Symbol jednostki musi być unikatowy"
+        },
+        "CreateUnitModalForm": {
+          "title": "Nowa jednostka",
+          "successMessage": "Jednostka została stworzona"
+        },
+        "CreateUnitButton": {
+          "title": "Nowa jednostka"
+        },
+        "UpdateLanguagesInheritanceButton": {
+          "warningMessage": "Drzewo językowe nie może być zapisane bez żadnego języka",
+          "successMessage": "Drzewo językowe zostało zaktualizowane"
+        },
+        "RemoveLanguageDropZone": {
+          "title": "Usuń język"
+        },
+        "ToolBarUserSelectContent": {
+          "logout": "WYLOGUJ"
+        },
+        "TranslationsTab": {
+          "translationsSelectLabel": "Tłumaczenia"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "@Attributes": {
+    "_": {
+      "submit": "Save changes",
+      "create": "Create",
+      "proceed": "Create & Edit",
+      "cancel": "Cancel",
+      "deleteConfirm": "Yes, remove",
+      "notAssigned": "Not assigned",
+      "routes": {
+        "title": "Attributes",
+        "group": "Product design",
+        "editOption": "Options",
+        "editTranslation": "Translations"
+      }
+    },
+    "attribute": {
+      "_": {
+        "title": "Attributes",
+        "headTitle": "Attributes - Ergonode",
+        "noAttributes": "No attributes",
+        "createFirst": "There are no attributes in the system, so you can add the first one.",
+        "types": {
+          "TEXT": "Text",
+          "TEXT_AREA": "Textarea",
+          "NUMERIC": "Numeric",
+          "SELECT": "Select",
+          "MULTI_SELECT": "Multi select",
+          "PRICE": "Price",
+          "UNIT": "Unit",
+          "DATE": "Date"
+        }
+      },
+      "components": {
+        "AttributeForm": {
+          "title": "Options",
+          "sectionTitle": "Configuration",
+          "typeLabel": "Type",
+          "nameLabel": "System name",
+          "nameHint": "System name must be unique",
+          "scopeLabel": "Scope",
+          "scopeHint": "Global means the same attribute values for each language, inherited from the root language ({lang}). Option values can be translated, but cannot be changed in the product template."
+        },
+        "AttributeTranslationForm": {
+          "nameLabel": "Attribute name",
+          "hintLabel": "Tooltip for writers"
+        },
+        "CreateAttributeButton": {
+          "addButton": "New attribute"
+        },
+        "RemoveAttributeButton": {
+          "removeButton": "Remove attribute",
+          "deleteTitle": "Are you sure you want to delete this attribute?",
+          "deleteSuccess": "Attribute removed",
+          "deleteRequest": "Attribute hasn’t been deleted"
+        },
+        "UpdateAttributeTranslationButton": {
+          "updateSuccess": "Attribute translations have been updated"
+        },
+        "AttributesGrid": {
+          "getRequest": "Attributes haven’t been fetched properly",
+          "deleteSuccess": "Attribute removed"
+        },
+        "CreateAttributeModalForm": {
+          "create": "Create attribute",
+          "createSuccess": "Attribute created"
+        },
+        "SystemAttributesSideBar": {
+          "title": "System attributes"
+        },
+        "AttributeGeneralTab": {
+          "updateSuccess": "Attribute has been updated"
+        }
+      },
+      "pages": {
+        "id": {
+          "getRequest": "Attribute hasn’t been fetched properly"
+        }
+      },
+      "store": {
+        "action": {
+          "createCancel": "Creating attribute has been canceled",
+          "updateCancel": "Updating attribute has been canceled",
+          "deleteCancel": "Removing attribute has been canceled",
+          "validateCancel": "Validating attribute value has been canceled"
+        }
+      }
+    },
+    "attributeExtend": {
+      "components": {
+        "AttributeOptionKeyValues": {
+          "addOption": "ADD OPTION",
+          "optionLabel": "Option code"
+        },
+        "AttributeOptionValues": {
+          "optionTitle": "Option values"
+        },
+        "AttributeFormParamsToggle": {
+          "richTextLabel": "Rich text content enabled"
+        },
+        "AttributeTranslationFormPlaceholder": {
+          "placeholderLabel": "Placeholder"
+        },
+        "AttributesVerticalTab": {
+          "title": "Product attributes"
+        },
+        "SystemAttributesVerticalTab": {
+          "title": "System attributes"
+        }
+      },
+      "methods": {
+        "optionUniq": "Option code must be unique",
+        "optionEmpty": "Option cannot be empty",
+        "getOptionRequest": "Attribute options hasn’t been fetched properly",
+        "configFormat": "Format",
+        "configUnit": "Unit",
+        "configCurrency": "Currency"
+      }
+    },
+    "productTemplate": {
+      "components": {
+        "ProductTemplateFormPresentation": {
+          "title": "Product presentation",
+          "defaultLabel": "Default label attribute",
+          "defaultImage": "Default image attribute",
+          "noLabelTitle": "No text attributes",
+          "noLabelSubtitle": "There are no text attributes in the system, so you can add the first one.",
+          "noImageTitle": "No image attributes",
+          "noImageSubtitle": "There are no image attributes in the system, so you can add the first one."
+        }
+      }
+    }
+  }
+}

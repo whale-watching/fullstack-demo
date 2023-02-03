@@ -1,0 +1,95 @@
+{
+  "@Categories": {
+    "_": {
+      "submit": "Zapisz zmiany",
+      "create": "Stwórz",
+      "proceed": "Stwórz & Edytuj",
+      "cancel": "Anuluj",
+      "clear": "Wyczyść",
+      "deleteConfirm": "Tak, usuń",
+      "notAssigned": "Nieprzypisane",
+      "routes": {
+        "title": "Kategorie",
+        "group": "Struktura produktu",
+        "editOption": "Opcje",
+        "editTranslation": "Tłumaczenia"
+      }
+    },
+    "category": {
+      "_": {
+        "title": "Kategorie",
+        "head": "Kategorie - Ergonode",
+        "label": "Kategoria",
+        "noItems": "Brak kategorii",
+        "createFirst": "W systemie nie ma kategorii, stwórz pierwszą.",
+        "selectVisibleCheckBox": "Zaznacz widoczne"
+      },
+      "components": {
+        "CreateCategoryButton": {
+          "addButton": "Nowa kategoria"
+        },
+        "RemoveCategoryButton": {
+          "removeButton": "Usuń kategorię",
+          "deleteTitle": "Czy jesteś pewien, że chcesz usunąć tę kategorię?",
+          "deleteSuccess": "Kategoria usunięta",
+          "deleteRequest": "Kategoria nie została usunięta"
+        },
+        "UpdateCategoryTranslationButton": {
+          "updateSuccess": "Tłumaczenia kategorii zostały uaktualnione"
+        },
+        "CategoryForm": {
+          "title": "Opcje",
+          "nameLabel": "Nazwa systemowa",
+          "nameHint": "Nazwa systemowa musi być unikalna"
+        },
+        "CategoryTranslationForm": {
+          "labelName": "Nazwa kategorii"
+        },
+        "CategoriesGrid": {
+          "getRequest": "Kategorie nie zostały pobrane prawidłowo",
+          "deleteSuccess": "Kategoria usunięta"
+        },
+        "CreateCategoryModalForm": {
+          "create": "Stwórz kategorie",
+          "createSuccess": "Kategoria stworzona"
+        },
+        "CategorySelect": {
+          "expandFilterButton": "FILTRY",
+          "toggleVisibleToggler": "Pokaż tylko zaznaczone",
+          "searchPlaceholder": "Szukaj kategorii...",
+          "goToButton": "Idź do drzewa kategorii",
+          "clearSearchButtonLabel": "Wyczyść widoczność kategorii",
+          "showAllExpandNumericButton": "Pokaż wszystkie",
+          "noCategoriesSubtitle": "Nie ma zaznaczonych kategorii dla wybranych kryteriów.",
+          "advancedFilterLabel": "Drzewo kategorii",
+          "noCategoryInTreeTitle": "Brak kategorii w drzewie",
+          "noCategoryInTreeSubtitle": "W drzewie nie ma kategorii, stwórz pierwszą."
+        },
+        "CategoryGeneralTab": {
+          "updateSuccess": "Kategoria została uaktualniona"
+        }
+      },
+      "pages": {
+        "id": {
+          "getRequest": "Kategoria nie została pobrana prawidłowo"
+        }
+      },
+      "store": {
+        "action": {
+          "createCancel": "Tworzenie kategorii zostało przerwane",
+          "updateCancel": "Aktualizacja kategorii została przerwana",
+          "deleteCancel": "Usuwanie kategorii zostało przerwane"
+        }
+      }
+    },
+    "categoryTreeExtend": {
+      "components": {
+        "CategorySideBarElement": {
+          "noProduct": "Produktów",
+          "product": "Produkt",
+          "productPlural": "Produkty"
+        }
+      }
+    }
+  }
+}

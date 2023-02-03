@@ -1,0 +1,241 @@
+{
+  "@Products": {
+    "_": {
+      "routes": {
+        "title": "Catalog",
+        "group": "Products",
+        "editGeneral": "Options",
+        "editTemplate": "Template",
+        "editHistory": "History",
+        "editVariants": "Variants",
+        "editGroups": "Groups"
+      },
+      "addProducts": {
+        "title": "Add products",
+        "fromListTitle": "Add products from list",
+        "fromListOption": "Select from list",
+        "fromSkuOption": "Add by SKU",
+        "fromSegmentOption": "Add from segment"
+      },
+      "create": "CREATE",
+      "proceed": "CREATE & EDIT",
+      "submit": "SAVE CHANGES",
+      "restore": "RESTORE",
+      "cancel": "CANCEL"
+    },
+    "product": {
+      "_": {
+        "title": "Catalog",
+        "headTitle": "Catalog - Ergonode",
+        "noProduct": "No products",
+        "createFirst": "There are no product in the system, so you can add the first one."
+      },
+      "components": {
+        "AddProductRelationsModalGrid": {
+          "title": "Add relations"
+        },
+        "AddProductRelationsButton": {
+          "title": "Add selected",
+          "confirmErrorApplyTitle": "Yes, clear",
+          "confirmErrorTitle": "Selected {info} product relations. Only 100 relations might be added",
+          "confirmErrorSubtitle": "Would you like to clear selection?",
+          "errorMessage": "Product relations couldn't be fetched",
+          "successMessage": "Product relations have been updated",
+          "infoMessage": "No changes have been made"
+        },
+        "AddProductRelationsGrid": {
+          "filtersButtonTitle": "FILTERS",
+          "successRemoveMessage": "Product relation removed",
+          "errorGetMessage": "Product relations haven’t been fetched properly"
+        },
+        "UploadProductRelations": {
+          "title": "Add relations",
+          "addRelationOption": "Add next relation",
+          "removeRelationOption": "Remove this relation",
+          "removeAllRelationsOption": "Remove all relations",
+          "navigateToRelationOption": "Navigate to this relation"
+        },
+        "UpdateProductTemplateButton": {
+          "successMessage": "Product has been updated"
+        },
+        "DoughnutProductsChart": {
+          "label": "Products",
+          "subtitle": "Products total"
+        },
+        "ProductTemplateFormNoTypeField": {
+          "placeholderTitle": "No support for {info} type of attribute"
+        },
+        "ProductForm": {
+          "title": "Options",
+          "typeLabel": "Product type",
+          "skuLabel": "SKU",
+          "skuHint": "Products SKU must be unique"
+        },
+        "ProductsGrid": {
+          "filtersButtonTitle": "FILTERS",
+          "noFilterErrorMessage": "Attribute has no filter",
+          "removeSuccessMessage": "Product removed",
+          "getErrorMessage": "Products haven’t been fetched properly"
+        },
+        "RestoreAttributeParentConfirmModal": {
+          "confirmTitle": "Do you want to restore parent translation value of selected cell?",
+          "buttonTitle": "YES, RESTORE",
+          "successMessage": "Product value restored",
+          "errorMessage": "Couldn`t restore product value"
+        },
+        "CreateProductModalForm": {
+          "title": "Create product",
+          "successMessage": "Product created"
+        },
+        "ProductCompleteness": {
+          "title": "{info}% Completed",
+          "missingFields": "Missing fields: {info}",
+          "allCompleted": "All completed"
+        },
+        "ProductGeneralTab": {
+          "successMessage": "Product has been updated"
+        },
+        "UpdateProductsButton": {
+          "alertSuccess": "Products have been updated"
+        },
+        "RestoreForm": {
+          "modalTitle": "Select attributes which values you want to restore from {from} to parent translation {to}"
+        },
+        "ProductWorkflowActionButton": {
+          "confirmTitle": "Are you sure you want to change status to {info}?",
+          "alertSuccess": "Status has been updated"
+        },
+        "CreateProductButton": {
+          "title": "NEW PRODUCT"
+        },
+        "RemoveProductButton": {
+          "title": "REMOVE PRODUCT",
+          "confirmTitle": "Are you sure you want to delete this product?",
+          "confirmApplyTitle": "YES, REMOVE",
+          "successAlert": "Product has been removed",
+          "errorAlert": "Product hasn't been deleted"
+        },
+        "RestoreProductAttributesModalForm": {
+          "title": "Restore parent value",
+          "formValidation": "Please mark attributes to restore",
+          "successAlert": "Attributes {info} have been restored"
+        },
+        "ProductTemplateTab": {
+          "editLanguageSelectLabel": "Edit language",
+          "placeholderTitle": "Template is empty",
+          "placeholderSubtitle": "No attribute has been added in the Template Designer. Edit the template and select attributes to display."
+        },
+        "EditProductTemplateButton": {
+          "title": "Edit template"
+        }
+      },
+      "pages": {
+        "id": {
+          "getInheritedProductRequest": "Inherited product hasn't been fetched properly",
+          "getProductRequest": "Product hasn't been fetched properly"
+        }
+      },
+      "store": {
+        "action": {
+          "skuRequiredLabel": "Sku is required",
+          "segmentRequiredLabel": "Segment rule is required",
+          "addBySKUCancel": "Adding product by skus has been canceled",
+          "addBySKUToCollectionCancel": "Adding product by skus to collection has been canceled",
+          "addFromSegmentCancel": "Adding products from segment has been canceled",
+          "createCancel": "Creating product has been canceled",
+          "updateCancel": "Updating product has been canceled",
+          "updateDraftCancel": "Updating product draft has been canceled",
+          "applyDraftCancel": "Applying product draft has been canceled",
+          "deleteCancel": "Removing product has been canceled",
+          "deleteChildrenCancel": "Removing product children has been canceled",
+          "deleteDraftCancel": "Removing product draft has been canceled"
+        }
+      }
+    },
+    "productExtend": {
+      "components": {
+        "AddProductsFromSegmentModalForm": {
+          "title": "Add products from segments",
+          "submitTitle": "Add to product",
+          "successMessage": "Products have been added to product group"
+        },
+        "AddProductsBySKUModalForm": {
+          "title": "Add products by SKU",
+          "submitTitle": "Add to product group",
+          "successMessage": "Products have been added to product group"
+        },
+        "AddBindingAttributesModalForm": {
+          "title": "Add binding attributes",
+          "submitTitle": "CHOOSE ATTRIBUTES",
+          "successMessage": "Attribute bindings added",
+          "infoMessage": "No binding attributes have been chosen"
+        },
+        "ProductVariantsTab": {
+          "placeholderTitle": "No binding attributes",
+          "placeholderSubtitle": "Binding attribute is the common attribute (select type) of the products, which link products together into the product with variants."
+        },
+        "AddBindingAttributes": {
+          "title": "Add attribute",
+          "infoAlert": "Binding attribute cannot be added when there are variants chosen. To add the next attribute, please remove all of the variants."
+        },
+        "BindingAttribute": {
+          "infoAlert": "Binding attribute cannot be removed when there are variants chosen. To remove the attribute, please remove all of the variants."
+        },
+        "AddBindingAttributesButton": {
+          "title": "Add binding attributes"
+        },
+        "AttachedProductVariantsGrid": {
+          "bindingAttributesButtonTitle": "Binding attributes",
+          "chooseVariants": "Choose variants",
+          "noProductVariants": "No product variants",
+          "addProductVariants": "Choose products which together will create a product with variants. You can choose between products which contain selected binding attributes.",
+          "getRequest": "Product variants haven’t been fetched properly",
+          "deleteSuccess": "Product variant removed"
+        },
+        "ProductVariantsToAttachGrid": {
+          "noProducts": "No products to attach",
+          "changeBindingAttributes": "There are no simple products which matches selected binding attributes, consider to change bindings or fill products with binded attributes data.",
+          "getRequest": "Product variants haven’t been fetched properly",
+          "attachedLabel": "Attached",
+          "notAttachedLabel": "Not attached"
+        },
+        "AttachedProductsToGroupGrid": {
+          "noProductsInGroup": "No products in group",
+          "addProductToGroup": "There are no product added to the group, so you can add the first one.",
+          "successMessage": "Product removed from group",
+          "errorMessage": "Group Product haven’t been fetched properly"
+        },
+        "ProductsToAttachForGroupGrid": {
+          "noProducts": "No products",
+          "createFirst": "There are either no product with variants nor simple products in the system, so you can add the first one.",
+          "attachedLabel": "Attached",
+          "notAttachedLabel": "Not attached",
+          "getRequest": "Products haven’t been fetched properly"
+        },
+        "AddProductsBySKUForm": {
+          "skuLabel": "By SKU",
+          "skuHint": "Separate multiple SKU’s by using enter or comma, e.g. “SKU1, SKU2, SKU3”"
+        },
+        "ProductAttributeBindingField": {
+          "label": "Binding attribute"
+        },
+        "ProductAttributesBindingForm": {
+          "paragraphInfo": "Binding attribute is the common attribute (select type) of the products, which link products together into the product with variants.",
+          "listTitle": "ADD BINDING ATTRIBUTE",
+          "listTittleTooltip": "There are no more select type attributes"
+        },
+        "UpdateProductsAttachmentButton": {
+          "successMessage": "Products attachment have been updated"
+        }
+      }
+    },
+    "uiExtend": {
+      "components": {
+        "GridProductRelationDataCell": {
+          "singularLabel": "{info} relation",
+          "pluralLabel": "{info} relations"
+        }
+      }
+    }
+  }
+}

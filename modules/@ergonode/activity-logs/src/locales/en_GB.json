@@ -1,0 +1,20 @@
+{
+  "@ActivityLogs": {
+    "_": {
+      "routes": {
+        "title": "Activity logs",
+        "group": "System"
+      }
+    },
+    "activityLog": {
+      "_": {
+        "title": "Users activity logs"
+      },
+      "components": {
+        "UsersActivityLogsGrid": {
+          "getRequest": "Users activity logs haven’t been fetched properly"
+        }
+      }
+    }
+  }
+}
