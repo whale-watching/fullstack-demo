@@ -80,10 +80,6 @@ On other browsers some functionalities may not work as intended.
 - JestJS
 
 ## Is it production ready
-
 Yes!
 
-## Partners
-
-This project is open-source, and it can be brought to you only by great web developer and partners supported by our core team. If you want to be on that list please send us an email: chenchrissh@gmail.com
 
